@@ -11,6 +11,10 @@ inputs:
     description: 'Name of the atrust image to push'
     required: true
     default: 'hagb/docker-atrust'
+  archs:
+    description: 'Archs of the easyconnect image to push'
+    required: true
+    default: 'amd64'
 runs:
   using: 'composite'
   steps:
