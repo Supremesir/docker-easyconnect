@@ -10,7 +10,7 @@ inputs:
   atrust_image_name:
     description: 'Name of the atrust image to push'
     required: true
-    default: 'hagb/docker-atrust'
+    default: 'supremesir/docker-atrust'
   archs:
     description: 'Archs of the easyconnect image to push'
     required: true
